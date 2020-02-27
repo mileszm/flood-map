@@ -4,15 +4,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-body {
-	padding: 0;
-  font-size: 100%;
-}
-#sidebar h1 {
-  color: white;
-  font-size: 1.5rem;
-}
-
 #sidebar {
   padding: 1rem;
   position: absolute;
@@ -21,11 +12,30 @@ body {
   width: 20vw;
   min-width: 20rem;
   height: 100%;
-  background: cornflowerblue;
+  background: rgba(0,8,22,0.8);
   z-index: 1;
 }
-
-#mapdiv {
+#sidebar h1 {
+  color: white;
+  font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+#sidebar p {
+  color: white;
+  font-size: 0.75rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+span.key {
+	text-shadow: 1px 1px 0 white;
+}
+span.lvl1 {
+	color: #3333ff;
+}
+span.lvl2 {
+	color: #7f82e9;
+}
+#map-div {
 	position: absolute;
 	width: 100%;
 	height: 100%;
