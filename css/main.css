@@ -26,6 +26,9 @@
 	font-weight: bold;
 	margin-bottom: 0.5rem;
 }
+#sidebar a {
+	color: #CCC;
+}
 span.key {
 	text-shadow: 1px 1px 0 white;
 }
